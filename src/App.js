@@ -1,8 +1,11 @@
+import React from "react";
+import Header from "./Components/Layouts/Header";
+
 function App() {
   return (
-    <div>
-      <h2>Стартовый Проект</h2>
-    </div>
+    <React.Fragment>
+      <Header />
+    </React.Fragment>
   );
 }
 
