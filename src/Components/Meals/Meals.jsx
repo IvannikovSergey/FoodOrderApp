@@ -2,10 +2,10 @@ import PromoText from "./PromoText";
 import MealsList from "./MealsList";
 
 
-function Meals() {
+function Meals(props) {
     return <>
         <PromoText/>
-        <MealsList/>
+        <MealsList id={props.id}/>
     </>
 }
 
